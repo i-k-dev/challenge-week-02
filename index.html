@@ -6,31 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ishqha Khidzr: Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="font" href="https://fonts.googleapis.com/css?family=Rubik" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+    </style>
 
 </head>
 
 <body>
 
 <header>
-    <div>
-        <h1>Ishqha Khidzr</h1>
+    <div class="header">
+        <h1>Ishqha <br> Khidzr</h1>
     </div>
     
-    <nav>
+    <nav class="nav">
         <ul>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            <li>
-                <a href="./assets/doc/ishqha-CV-December-2022-copy.pdf">CV</a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./assets/doc/ishqha-CV-December-2022-copy.pdf">CV</a></li>
         </ul>
     </nav>
 
@@ -39,7 +36,7 @@
 <main id="about">
 
     <div>
-        <img src="./assets/img/ik-dp.jpg" alt="Profile picture of this web developer, Ishqha Khidzr">
+        <img class="me" src="./assets/img/ik-dp.jpg" alt="Profile picture of this web developer, Ishqha Khidzr">
     </div>
     <br>
     <p>
@@ -52,14 +49,14 @@
 
 </section>
 
-<section id="contact">
+<section class="contactMe">
     <a href="https://github.com/i-k-dev"><img src="./assets/img/footer-github.svg"></a>
     <a href="https://twitter.com/ishqhakhidzr"><img src="./assets/img/footer-twitter.svg"></a>
     <a href="mailto:ishqha2.abdulrahim@live.uwe.ac.uk"><img src="./assets/img/footer-mail.svg"></a>
 </section>
 
-<footer>
-<p> Made with haste by Ishqha Khidzr. (C) 2022</p>
+<footer id="footer">
+<p> Made <p id="strikethrough">with haste</p> by Ishqha Khidzr. <br> (C) 2022</p>
 </footer>
     
 </body>
