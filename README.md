@@ -2,7 +2,7 @@
 
 A web dev portfolio page where I can add more projects to showcase my skills and talents to employers, as the course progresses. 
 
-With these points in mind, if I don't have enough web applications to showcase at this point, I'll use placeholder images and names. 
+With these points in mind: if I don't have enough web applications to showcase at this point, I'll use placeholder images and names. 
 
 ## Description
 
@@ -15,7 +15,7 @@ This is for practicing the things I've learned and to apply the skills during th
 ## Links/Submission
 
 * REPO: https://github.com/i-k-dev/challenge-week-02
-* PAGE: 
+* PAGE: https://i-k-dev.github.io/challenge-week-02/
 
 ## Acceptance Criteria
 
@@ -30,7 +30,7 @@ Critical requirements necessary to develop a portfolio that satisfies a typical 
 
 ## Author
 
-Contributor names and contact info
+Contributor names and contact info:
 
 Ishqha Khidzr  
 @ this-github-user :-)
