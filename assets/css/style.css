@@ -17,13 +17,7 @@ body {
     color: var(--white);
     font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    grid-template-rows: 80% 20%;
-    grid-template-areas:
-    "sidebar1 main1"
-    "sidebar2 main2"
-    "sidebar3 footer";
+    display: flex;
 }
 
 h1, h2, h3 {
@@ -54,6 +48,11 @@ body a {
     z-index: 1;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
     display: flex;
     align-content: center;
@@ -73,6 +72,7 @@ body a {
     color: var(--white);
     display: flex;
     justify-content: center;
+    background-color: var(--black);
 }
 
 #strikethrough {
