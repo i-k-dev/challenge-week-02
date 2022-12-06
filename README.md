@@ -14,7 +14,7 @@ This is for practicing the things I've learned and to apply the skills during th
 
 ## Links/Submission
 
-* REPO: 
+* REPO: https://github.com/i-k-dev/challenge-week-02
 * PAGE: 
 
 ## Acceptance Criteria
