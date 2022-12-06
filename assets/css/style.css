@@ -1,0 +1,28 @@
+:root {
+    --white: white;
+    --black: black;
+    --green: rgb(170, 209, 31);
+    --grey: rgb(50, 50, 50);
+    --red: red;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    color: var(--white);
+}
+
+body a {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+#contact a {
+    color: var(--white);
+    background-color: var(--white);
+}
