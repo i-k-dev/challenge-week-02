@@ -10,18 +10,26 @@
     margin: 1px;
     padding: 1px;
     box-sizing: border-box;
+    background-color: var(--black);
 }
 
 body {
-    background-color: var(--black);
     color: var(--white);
     font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
-    display: flex;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 3fr;
 }
 
-h1, h2, h3 {
-    color: var(--white);
+.body {
+    line-height: 150%;
+}
+
+nav > ul li {
+    list-style: none;
+    line-height: 200%;
 }
 
 body a {
@@ -31,26 +39,12 @@ body a {
     list-style: none;
 }
 
-.nav {
-    margin-left: -50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    line-height: 200%;
+#bodyLinkonly a {
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
     list-style: none;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
+    background-color: rgba(188, 213, 97, 0.5);
 }
 
 .footer {
@@ -60,21 +54,61 @@ body a {
 }
 
 .me {
-    height: 250px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    float: right;
+    height: 200px;
     padding: 20px;
     border-radius: 50%;
-}
-
-.contactMe {
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    background-color: var(--black);
 }
 
 #strikethrough {
     text-decoration: line-through;
 }
+
+
+/* text styles */
+.justifyCenter {
+    justify-content: center;
+}
+
+
+.My-Work-Grid {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "Horiseon    Horiseon"
+        "SelfBio    Prework"
+        "Placeholder1     Placeholder2";
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+#Horiseon-Hero {
+    background-image: url(../img/project-horiseon.png);
+    grid-area: Horiseon;
+    cursor: crosshair;
+    border: 5px solid rgba(188, 213, 97, 0.5);
+}
+
+.HoriseonHeading {
+    font-size: 25px;
+    padding: 20px;
+    position: relative;
+    top: 300px;
+    left: 0;
+}
+
+
+.Projects {
+    height: 60px;
+    width: 250px;
+    color: rgb(251, 225, 202);
+    font-size: 25px;
+    padding: 15px;
+    position: relative;
+    top: 120px;
+}
+
+#jesuschrist
